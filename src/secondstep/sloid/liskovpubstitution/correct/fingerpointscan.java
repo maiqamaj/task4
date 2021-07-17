@@ -1,14 +1,14 @@
 package secondstep.sloid.liskovpubstitution.correct;
 
-public class fingerpointscan<T> implements  safe {
+public class fingerpointscan<T> implements safe {
 	private T fingerpoint;
 
 	@Override
 	public void openSafe(passwordProvider PasswordProvider, Object value) {
-		point P=new point(value);
-		fingerpoint=(T) P.getpass();
+		point P = new point(value);
+		fingerpoint = (T) P.getpass();
 		System.out.println("-------Fingerprint scanning------");
-        System.out.println("Safe is opened");
+		System.out.println("Safe is opened");
 
 	}
 
@@ -16,7 +16,6 @@ public class fingerpointscan<T> implements  safe {
 	public void closeSafe() {
 		System.out.println("Safe is closed");
 
-		
 	}
 
 }
