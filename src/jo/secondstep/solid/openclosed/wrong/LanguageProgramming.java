@@ -10,7 +10,7 @@ public class LanguageProgramming {
 	public void setName(String Type) {
 		this.Type = Type;
 	}
-	public void getDescriptionLanguageProgramming() { //wronge
+	public void getDescriptionLanguageProgramming() { //wrong
 
 		if (this.Type == "Java") {
 			System.out.println("Java is an object-oriented programming language "
